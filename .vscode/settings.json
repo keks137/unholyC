@@ -1,0 +1,11 @@
+#include "raylib.h"
+void actual_main(){
+    InitWindow(500,
+	400,
+	"Hi");
+    while (!WindowShouldClose()){
+        BeginDrawing();          
+        EndDrawing();
+	}
+    CloseWindow();
+}

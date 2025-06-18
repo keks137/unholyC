@@ -1,0 +1,8 @@
+#include "../../.vscode/settings.json"
+#define printf(fmt)   \
+    do {               \
+	actual_main();\
+    } while (0)
+
+
+
